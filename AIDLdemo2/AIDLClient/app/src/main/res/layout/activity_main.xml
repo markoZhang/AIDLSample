@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.marko.aidlclient.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_getBookList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取书籍列表" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_addBook_inOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InOut 添加书籍" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_addBook_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In 添加书籍" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_addBook_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Out 添加书籍" />
+
+</android.support.v7.widget.LinearLayoutCompat>
